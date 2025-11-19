@@ -30,10 +30,10 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/bappy-3/itersys"
-Repository = "https://github.com/bappy-3/itersys"
-Issues = "https://github.com/bappy-3/itersys/issues"
-Documentation = "https://github.com/bappy-3/itersys#readme"
+Homepage = "https://github.com/ZeroDevsLtd/itersys"
+Repository = "https://github.com/ZeroDevsLtd/itersys"
+Issues = "https://github.com/ZeroDevsLtd/itersys/issues"
+Documentation = "https://github.com/ZeroDevsLtd/itersys#readme"
 
 [project.optional-dependencies]
 dev = [
