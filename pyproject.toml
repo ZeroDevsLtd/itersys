@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "itersys"
+version = "0.1.0"
+description = "A lightweight Python library providing one-line iterator and algorithm helpers"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Itersys Contributors", email = "maintainers@itersys.dev"},
+]
+keywords = ["iterator", "algorithm", "utilities", "combinatorics", "helpers"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/bappy-3/itersys"
+Repository = "https://github.com/bappy-3/itersys"
+Issues = "https://github.com/bappy-3/itersys/issues"
+Documentation = "https://github.com/bappy-3/itersys#readme"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+]
+
+[project.scripts]
+itersys = "cli:main"
+
+[tool.setuptools]
+packages = ["itersys"]
+py-modules = ["cli"]
+
+[tool.setuptools.package-data]
+"*" = ["README.md", "LICENSE"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+

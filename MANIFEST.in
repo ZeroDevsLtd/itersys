@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include pyproject.toml
+include cli.py
+recursive-include itersys *.py
+recursive-include tests *.py
