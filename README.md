@@ -11,7 +11,7 @@ pip install itersys
 Or install from source:
 
 ```bash
-git clone https://github.com/yourusername/itersys.git
+git clone https://github.com/ZeroDevsLtd/itersys.git
 cd itersys
 pip install -e .
 ```
